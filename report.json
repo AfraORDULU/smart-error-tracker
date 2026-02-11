@@ -1,0 +1,25 @@
+{
+  "total_lines": 9,
+  "levels": {
+    "INFO": 3,
+    "WARNING": 2,
+    "ERROR": 4
+  },
+  "top_errors": [
+    {
+      "error": "Database connection failed",
+      "count": 2,
+      "suggestion": "Veritabanı kapalı olabilir veya ağ bağlantısı sorunu olabilir. DB servisini ve bağlantı ayarlarını kontrol et."
+    },
+    {
+      "error": "Payment gateway timeout",
+      "count": 1,
+      "suggestion": "Servis yanıt vermiyor olabilir. Network gecikmesi veya API servisinde yoğunluk olabilir."
+    },
+    {
+      "error": "Null pointer exception",
+      "count": 1,
+      "suggestion": "Kod içinde None kontrolü eksik olabilir. İlgili modülde değişkenlerin None olup olmadığını kontrol et."
+    }
+  ]
+}

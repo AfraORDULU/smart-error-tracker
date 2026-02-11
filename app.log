@@ -1,0 +1,9 @@
+2026-02-11 10:10:21 INFO User login success user_id=124
+2026-02-11 10:11:03 WARNING Slow response time endpoint=/api/products ms=1200
+2026-02-11 10:11:55 ERROR Database connection failed host=db01
+2026-02-11 10:12:01 ERROR Database connection failed host=db01
+2026-02-11 10:12:45 INFO Product list fetched count=48
+2026-02-11 10:13:12 ERROR Payment gateway timeout provider=Stripe
+2026-02-11 10:13:50 WARNING Disk usage high percent=92
+2026-02-11 10:14:09 ERROR Null pointer exception module=cart
+2026-02-11 10:14:55 INFO User logout user_id=124
